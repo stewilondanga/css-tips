@@ -90,7 +90,7 @@ function showNewBlogPost() {
 
   // add a class to the card element which animates the card as it is refreshed
   // after 0.2s remove it
-  /*cardElement.classList.add("card--refresh");
+  cardElement.classList.add("card--refresh");
   let timeoutID = setTimeout(function() {
     cardElement.classList.remove("card--refresh");
     clearTimeout(timeoutID);
