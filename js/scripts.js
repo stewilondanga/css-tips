@@ -71,11 +71,11 @@ function showNewBlogPost() {
 
   // change the custom properties to describe the item selected with the random number
   // --card needs to nest values in between quotes, as to include the value for the content property
-  /*cardElement.style.setProperty("--card", `\"${cardSuit[randomSuit]} ${cardValue[randomNumber]}\"`);
+  cardElement.style.setProperty("--card", `\"${cardSuit[randomSuit]} ${cardValue[randomNumber]}\"`);
   cardElement.style.setProperty("--suit", cardColor[randomSuitColor]);
 
   // create a random number to access a random (hypothetical) article
-  let randomBlogPost = Math.floor(Math.random() * blogPosts.title.length);
+  /*let randomBlogPost = Math.floor(Math.random() * blogPosts.title.length);
 
   // create variables which store the title, subtitle, description of the randomly selected article
   let title = blogPosts.title[randomBlogPost];
