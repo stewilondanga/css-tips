@@ -60,10 +60,10 @@ const cardElement = document.querySelector(".container .card");
 // title, subtitle, description, to be changed in text
 const titleElement = document.querySelector(".container .card .card__content h1");
 const subtitleElement = document.querySelector(".container .card .card__content h3");
-/*const descriptionElement = document.querySelector(".container .card .card__content p");
+const descriptionElement = document.querySelector(".container .card .card__content p");
 
 // describe a function which refreshes the contents of the card
-function showNewBlogPost() {
+/*function showNewBlogPost() {
     // create random numbers to access a random item in the arrays for the card suit, value and color
     let randomSuit = Math.floor(Math.random()*cardSuit.length);
     let randomNumber = Math.floor(Math.random()*cardValue.length);
