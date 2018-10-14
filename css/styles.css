@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
+/*
+include css variables for the text included in pseudo elements and colors of the cards
+adding these values as custom properties allows to update their values in JS, and immediately refresh the page
+*/
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -22,10 +27,6 @@
   height: 1.5em;
 }
 
-/*
-include css variables for the text included in pseudo elements and colors of the cards
-adding these values as custom properties allows to update their values in JS, and immediately refresh the page
-*/
 
 /*:root {
   --card: "♦ 6";
