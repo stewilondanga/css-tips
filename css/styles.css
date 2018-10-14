@@ -40,7 +40,7 @@ body {
 
 /* center the card and button in the screen, in a single column layout */
 
-/*.container {
+.container {
   display: flex;
   justify-content: center;
   min-height: 100vh;
