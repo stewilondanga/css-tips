@@ -4,6 +4,11 @@ include css variables for the text included in pseudo elements and colors of the
 adding these values as custom properties allows to update their values in JS, and immediately refresh the page
 */
 
+:root {
+  --card: "♦ 6";
+  --suit: #DD5964;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -25,12 +30,6 @@ adding these values as custom properties allows to update their values in JS, an
 
 .my_social a img {
   height: 1.5em;
-}
-
-
-/*:root {
-  --card: "♦ 6";
-  --suit: #DD5964;
 }
 
 * {
