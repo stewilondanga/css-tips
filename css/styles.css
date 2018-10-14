@@ -66,7 +66,7 @@ body {
   background: #f8f4f3;
 }
 
-/*.container button:active {
+.container button:active {
   transform: scale(1.05);
 }
 
