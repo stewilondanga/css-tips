@@ -81,10 +81,10 @@ function showNewBlogPost() {
   let title = blogPosts.title[randomBlogPost];
   let subtitle = blogPosts.subtitle[randomBlogPost];
   // include a subset of the description
-  /*let description = blogPosts.description[randomBlogPost].substr(0, 147) + "...";
+  let description = blogPosts.description[randomBlogPost].substr(0, 147) + "...";
 
   // include in the selected HTML elements the values stored in the variables
-  titleElement.textContent = title;
+  /*titleElement.textContent = title;
   subtitleElement.textContent = subtitle;
   descriptionElement.textContent = description;
 
