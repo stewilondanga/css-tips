@@ -15,6 +15,14 @@ adding these values as custom properties allows to update their values in JS, an
   padding: 0;
 }
 
+body {
+  min-height: 100vh;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  color: #123034;
+  background-color: #123034;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -36,14 +44,6 @@ adding these values as custom properties allows to update their values in JS, an
 
 .my_social a img {
   height: 1.5em;
-}
-
-body {
-  min-height: 100vh;
-  width: 100%;
-  font-family: 'Open Sans', sans-serif;
-  color: #123034;
-  background-color: #123034;
 }
 
 /* center the card and button in the screen, in a single column layout */
