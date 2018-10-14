@@ -123,13 +123,11 @@ body {
   transform: translateX(20px) rotate(2deg);
 }
 
-/*.card--refresh:after,
-.card--refresh:before,
-.card--refresh .card__content {
+.card--refresh:after, .card--refresh:before, .card--refresh .card__content {
   opacity: 0;
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
