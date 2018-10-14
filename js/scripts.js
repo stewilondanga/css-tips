@@ -52,11 +52,11 @@ const blogPosts = {
 // target the button which allows to refresh the contents of the card
 const button = document.querySelector(".container button");
 // listen for a click event on the button, at which point refresh the contents of the card
-/*button.addEventListener("click", showNewBlogPost);
+button.addEventListener("click", showNewBlogPost);
 
 // target the HTML elements affected when the card is refreshed
 // card, to be animated with the addition/removal of a class
-const cardElement = document.querySelector(".container .card");
+/*const cardElement = document.querySelector(".container .card");
 // title, subtitle, description, to be changed in text
 const titleElement = document.querySelector(".container .card .card__content h1");
 const subtitleElement = document.querySelector(".container .card .card__content h3");
