@@ -63,36 +63,36 @@ const subtitleElement = document.querySelector(".container .card .card__content 
 const descriptionElement = document.querySelector(".container .card .card__content p");
 
 // describe a function which refreshes the contents of the card
-/*function showNewBlogPost() {
-    // create random numbers to access a random item in the arrays for the card suit, value and color
-    let randomSuit = Math.floor(Math.random()*cardSuit.length);
-    let randomNumber = Math.floor(Math.random()*cardValue.length);
-    let randomSuitColor = Math.floor(Math.random()*cardColor.length);
+function showNewBlogPost() {
+  // create random numbers to access a random item in the arrays for the card suit, value and color
+  let randomSuit = Math.floor(Math.random() * cardSuit.length);
+  let randomNumber = Math.floor(Math.random() * cardValue.length);
+  let randomSuitColor = Math.floor(Math.random() * cardColor.length);
 
-    // change the custom properties to describe the item selected with the random number
-    // --card needs to nest values in between quotes, as to include the value for the content property
-    cardElement.style.setProperty("--card", `\"${cardSuit[randomSuit]} ${cardValue[randomNumber]}\"`);
-    cardElement.style.setProperty("--suit", cardColor[randomSuitColor]);
+  // change the custom properties to describe the item selected with the random number
+  // --card needs to nest values in between quotes, as to include the value for the content property
+  /*cardElement.style.setProperty("--card", `\"${cardSuit[randomSuit]} ${cardValue[randomNumber]}\"`);
+  cardElement.style.setProperty("--suit", cardColor[randomSuitColor]);
 
-    // create a random number to access a random (hypothetical) article
-    let randomBlogPost = Math.floor(Math.random()*blogPosts.title.length);
+  // create a random number to access a random (hypothetical) article
+  let randomBlogPost = Math.floor(Math.random() * blogPosts.title.length);
 
-    // create variables which store the title, subtitle, description of the randomly selected article
-    let title = blogPosts.title[randomBlogPost];
-    let subtitle = blogPosts.subtitle[randomBlogPost];
-    // include a subset of the description
-    let description = blogPosts.description[randomBlogPost].substr(0, 147) + "...";
+  // create variables which store the title, subtitle, description of the randomly selected article
+  let title = blogPosts.title[randomBlogPost];
+  let subtitle = blogPosts.subtitle[randomBlogPost];
+  // include a subset of the description
+  let description = blogPosts.description[randomBlogPost].substr(0, 147) + "...";
 
-    // include in the selected HTML elements the values stored in the variables
-    titleElement.textContent = title;
-    subtitleElement.textContent = subtitle;
-    descriptionElement.textContent = description;
+  // include in the selected HTML elements the values stored in the variables
+  titleElement.textContent = title;
+  subtitleElement.textContent = subtitle;
+  descriptionElement.textContent = description;
 
-    // add a class to the card element which animates the card as it is refreshed
-    // after 0.2s remove it
-    cardElement.classList.add("card--refresh");
-    let timeoutID = setTimeout(function() {
-        cardElement.classList.remove("card--refresh");
-        clearTimeout(timeoutID);
-    }, 200);
+  // add a class to the card element which animates the card as it is refreshed
+  // after 0.2s remove it
+  cardElement.classList.add("card--refresh");
+  let timeoutID = setTimeout(function() {
+    cardElement.classList.remove("card--refresh");
+    clearTimeout(timeoutID);
+  }, 200);
 }
