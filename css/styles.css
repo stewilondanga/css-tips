@@ -108,12 +108,12 @@ body {
   right: 0;
 }
 
-/*.container .card .card__content h3 {
+.container .card .card__content h3 {
   margin: 1rem 0 1.5rem;
   line-height: 1.4;
 }
 
-.container .card .card__content p {
+/*.container .card .card__content p {
   line-height: 2;
 }
 
