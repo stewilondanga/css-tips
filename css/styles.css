@@ -79,7 +79,7 @@ body {
   background: #f8f4f3;
   border-radius: 12px;
   /* transition to alter properties when the card is refreshed (in JS) */
-  /*transition: all 0.2s ease;
+  transition: all 0.2s ease;
   /* position relative to absolute position pseudo elements */
   /*position: relative;
   /* cursor pointer to redirect to the hypothetical article */
