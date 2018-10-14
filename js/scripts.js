@@ -78,10 +78,10 @@ function showNewBlogPost() {
   let randomBlogPost = Math.floor(Math.random() * blogPosts.title.length);
 
   // create variables which store the title, subtitle, description of the randomly selected article
-  /*let title = blogPosts.title[randomBlogPost];
+  let title = blogPosts.title[randomBlogPost];
   let subtitle = blogPosts.subtitle[randomBlogPost];
   // include a subset of the description
-  let description = blogPosts.description[randomBlogPost].substr(0, 147) + "...";
+  /*let description = blogPosts.description[randomBlogPost].substr(0, 147) + "...";
 
   // include in the selected HTML elements the values stored in the variables
   titleElement.textContent = title;
