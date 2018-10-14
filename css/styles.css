@@ -9,6 +9,12 @@ adding these values as custom properties allows to update their values in JS, an
   --suit: #DD5964;
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -30,12 +36,6 @@ adding these values as custom properties allows to update their values in JS, an
 
 .my_social a img {
   height: 1.5em;
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 body {
