@@ -58,8 +58,8 @@ button.addEventListener("click", showNewBlogPost);
 // card, to be animated with the addition/removal of a class
 const cardElement = document.querySelector(".container .card");
 // title, subtitle, description, to be changed in text
-/*const titleElement = document.querySelector(".container .card .card__content h1");
-const subtitleElement = document.querySelector(".container .card .card__content h3");
+const titleElement = document.querySelector(".container .card .card__content h1");
+/*const subtitleElement = document.querySelector(".container .card .card__content h3");
 const descriptionElement = document.querySelector(".container .card .card__content p");
 
 // describe a function which refreshes the contents of the card
