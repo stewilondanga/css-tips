@@ -113,7 +113,7 @@ body {
   line-height: 1.4;
 }
 
-/*.container .card .card__content p {
+.container .card .card__content p {
   line-height: 2;
 }
 
