@@ -84,13 +84,13 @@ function showNewBlogPost() {
   let description = blogPosts.description[randomBlogPost].substr(0, 147) + "...";
 
   // include in the selected HTML elements the values stored in the variables
-  /*titleElement.textContent = title;
+  titleElement.textContent = title;
   subtitleElement.textContent = subtitle;
   descriptionElement.textContent = description;
 
   // add a class to the card element which animates the card as it is refreshed
   // after 0.2s remove it
-  cardElement.classList.add("card--refresh");
+  /*cardElement.classList.add("card--refresh");
   let timeoutID = setTimeout(function() {
     cardElement.classList.remove("card--refresh");
     clearTimeout(timeoutID);
