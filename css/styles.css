@@ -58,9 +58,10 @@ body {
   font-size: 1.05rem;
   color: #f8f4f3;
   /* transition to alter the button on hover and when it is pressed */
-  /*transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
-.container button:hover {
+
+/*.container button:hover {
   color: #123034;
   background: #f8f4f3;
 }
@@ -69,18 +70,22 @@ body {
 }
 
 /* style for the div.card */
-  /*.container .card {
+
+/*.container .card {
   margin: 0 1rem 2rem;
   padding: 2.2rem 2.5rem;
   max-width: 300px;
   background: #f8f4f3;
   border-radius: 12px;
   /* transition to alter properties when the card is refreshed (in JS) */
-  /*transition: all 0.2s ease;
+
+/*transition: all 0.2s ease;
   /* position relative to absolute position pseudo elements */
-  /*position: relative;
+
+/*position: relative;
   /* cursor pointer to redirect to the hypothetical article */
-  /*cursor: pointer;
+
+/*cursor: pointer;
 }
 
 /*.container .card:after,
@@ -90,11 +95,13 @@ body {
   font-size: 1.6rem;
   padding: 5px;
   /* include the color and content of the pseudo element as specified by the custom properties */
-  /*content: var(--card);
+
+/*content: var(--card);
   color: var(--suit);
 }
 /* position the pseudo elements at either end of the card */
-  /*.container .card:after {
+
+/*.container .card:after {
   top: 0;
   left: 0;
 }
@@ -113,7 +120,8 @@ body {
 }
 
 /* include a class to be added and remove to the card, as its content is refreshed */
-  /*.card--refresh {
+
+/*.card--refresh {
   transform: translateX(20px) rotate(2deg);
 }
 .card--refresh:after,
